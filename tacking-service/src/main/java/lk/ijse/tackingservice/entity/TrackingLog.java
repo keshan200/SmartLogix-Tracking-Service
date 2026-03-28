@@ -26,7 +26,7 @@ public class TrackingLog {
 
     private LocalDateTime timestamp = LocalDateTime.now();
 
-    private Long updatedBy;
+    private int updatedBy;
 
     private String remarks;
 }

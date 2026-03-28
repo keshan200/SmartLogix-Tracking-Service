@@ -4,17 +4,11 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
-import java.time.LocalDateTime;
-
 @Data
-@NoArgsConstructor
 @AllArgsConstructor
-public class TrackingLogDTO {
-    private String id;
+@NoArgsConstructor
+public class TrackingRequest {
     private String orderCode;
-    private String currentLocation;
     private String status;
-    private LocalDateTime timestamp;
     private int updatedBy;
-    private String remarks;
 }

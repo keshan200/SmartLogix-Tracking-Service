@@ -8,6 +8,8 @@ spring:
   jackson:
     date-format: yyyy-MM-dd HH:mm:ss
     time-zone: Asia/Colombo
+    deserialization:
+      fail-on-unknown-properties: false
 
   mongodb:
     uri: mongodb+srv://keshan175:ClaCg0SaMT108NHz@mini-pos.66jcehe.mongodb.net/trackingdb?retryWrites=true&w=majority&appName=mini-pos
